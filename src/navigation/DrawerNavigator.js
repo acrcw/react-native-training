@@ -15,11 +15,11 @@ const DrawerNavigator = () => {
         component={Home}
         options={{ headerShown: false }}
       />
-      <Drawer.Screen
+      {/* <Drawer.Screen
         name={NAVIGATION.count}
         component={Count}
         options={{ headerShown: false }}
-      />
+      /> */}
       <Drawer.Screen
         name={NAVIGATION.profile}
         component={Profile}

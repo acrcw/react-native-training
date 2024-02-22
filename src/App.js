@@ -5,15 +5,17 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { persistor, store } from '@/store';
 import { RootNavigator } from '@/navigation';
+import Newcal from './screens/Newcal/Newcal';
 
 enableScreens();
 
 export function App() {
   return (
     <Provider store={store}>
-      <PersistGate onBeforeLift={hide} persistor={persistor}>
+      {/* <PersistGate onBeforeLift={hide} persistor={persistor}>
         <RootNavigator />
-      </PersistGate>
+      </PersistGate> */}
+      <Newcal></Newcal>
     </Provider>
   );
 }

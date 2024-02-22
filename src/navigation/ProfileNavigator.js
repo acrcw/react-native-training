@@ -33,12 +33,12 @@ const Drawer = createDrawerNavigator();
 export function ProfileNavigator() {
   return (
     <Stack.Navigator>
-      <Stack.Screen
+      {/* <Stack.Screen
         name={NAVIGATION.profile}
         component={Profile}
         options={{ headerLargeTitle: true }}
-      />
-      <Stack.Screen
+      /> */}
+      {/* <Stack.Screen
         name={NAVIGATION.count}
         component={Count}
         options={{ headerShown: false }}
@@ -144,12 +144,12 @@ export function ProfileNavigator() {
         name={NAVIGATION.Reduxhome}
         component={Reduxhome}
         options={{ headerShown: false }}
-      />
-       <Stack.Screen
+      /> */}
+       {/* <Stack.Screen
         name={NAVIGATION.Calculator}
         component={Calculator}
         options={{ headerShown: false }}
-      />
+      /> */}
       <Stack.Screen
         name={NAVIGATION.Newcal}
         component={Newcal}
